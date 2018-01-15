@@ -1,0 +1,274 @@
+[
+    {
+      "airportList": [
+        {
+          "code": "LHR",
+          "name": "London Heathrow",
+          "location": "45,40",
+          "status": true,
+          "planeNumber": 3,
+          "takeOffProbability": 0.2
+        },
+        {
+          "code": "YK",
+          "name": "York",
+          "location": "50,30",
+          "status": true,
+          "planeNumber": 1,
+          "takeOffProbability": 0.1
+        },
+        {
+          "code": "MAN",
+          "location": "60,47",
+          "name": "Manchester",
+          "status": true,
+          "planeNumber": 1,
+          "takeOffProbability": 0.2
+        },
+        {
+          "code": "TXL",
+          "location": "47,50",
+          "name": "Berlin Tegel",
+          "status": true,
+          "planeNumber": 1,
+          "takeOffProbability": 0.005
+        },
+        {
+          "code": "UAK",
+          "location": "3,12",
+          "name": "Narsarsuaq",
+          "status": false,
+          "planeNumber": 5,
+          "takeOffProbability": 0.02
+        },
+        {
+          "code": "DME",
+          "location": "75,35",
+          "name": "Moscow Domodedovo",
+          "status": true,
+          "planeNumber": 6,
+          "takeOffProbability": 0.02
+        },
+        {
+          "code": "ESB",
+          "location": "50,15",
+          "name": "Esenboga International",
+          "status": false,
+          "planeNumber": 1,
+          "takeOffProbability": 0.1
+        }
+      ],
+      "planeList": [
+        {
+          "callsign": "LHR_001",
+          "location": "32,55",
+          "originalAirport": "LHR",
+          "destinationAirport": "TXL",
+          "speed" : 1.0
+        },
+        {
+          "callsign": "LHR_002",
+          "location": "31,52",
+          "originalAirport": "LHR",
+          "destinationAirport": "MAN",
+          "speed": 1.0
+        },
+        {
+          "callsign": "DME_005",
+          "location": "75,36",
+          "originalAirport": "DME",
+          "destinationAirport": "ESB",
+          "speed": 1.0
+        },
+        { 
+          "callsign": "UAK_004",
+          "location": "31,52",
+          "originalAirport": "LHR",
+          "destinationAirport": "MAN",
+          "speed": 1.0
+        }
+      ],
+      "trafficList": [
+        {
+          "callsign": "XR_001",
+          "destination": "LOND",
+          "origin": "XRODN",
+          "location": "15,15"
+        },
+        {
+          "callsign": "XR_002",
+          "destination": "LOND",
+          "origin": "XRODN",
+          "location": "15,15"
+        }
+      ],
+      "planeCreateList": [
+        {
+          "callsign": "YK_001",
+          "location": "20,20",
+          "originalAirport": "YK",
+          "destinationAirport": "LHR",
+          "speed" : 1.0
+        }
+      ],
+      "planeLandList": [
+        {
+          "callsign": "YK_001",
+          "location": "50,50",
+          "originalAirport": "YK",
+          "destinationAirport": "LHR",
+          "speed": 1.0
+        },
+        {
+          "callsign": "YK_001",
+          "location": "50,50",
+          "originalAirport": "YK",
+          "destinationAirport": "LHR",
+          "speed": 1.0
+        }
+      ],
+      "moveMentList": [
+        {
+          "callsign": "LHR_003",
+          "oldLocation": "20,20",
+          "newLocation": "30,30",
+          "originalAirport": "LHR",
+          "destinationAirport": "XD"
+        },
+        {
+          "callsign": "LHR_004",
+          "oldLocation": "20,20",
+          "newLocation": "30,30",
+          "originalAirport": "LHR",
+          "destinationAirport": "YK"
+        }
+      ],
+      "airportCreateList": [
+        {
+          "code": "LOND",
+          "name": "London",
+          "location": "70,70",
+          "takeOffProbability": 0,
+          "status": false,
+          "planeNumber": 1
+        },
+        {
+          "code": "SF",
+          "name": "Sheffiled",
+          "location": "25,49",
+          "takeOffProbability": 0,
+          "status":false,
+          "planeNumber": 1
+        }
+      ]
+    },
+    {
+      "airportList": [
+        {
+          "code": "LHR",
+          "name": "Manchester",
+          "location": "20,30",
+          "status": false,
+          "planeNumber": 1,
+          "takeOffProbability": 0
+        },
+        {
+          "code": "YK",
+          "name": "York",
+          "location": "50,30",
+          "status": false,
+          "planeNumber": 1,
+          "takeOffProbability": 0.25
+        }
+      ],
+      "planeList": [
+        {
+          "callsign": "LHR_001",
+          "location": "10,10",
+          "originalAirport": "LHR",
+          "destinationAirport": "YK",
+          "speed" : 1.0
+        },
+        {
+          "callsign": "LHR_002",
+          "location": "10,10",
+          "originalAirport": "LHR",
+          "destinationAirport": "LD",
+          "speed": 1.0
+        }
+      ],
+      "trafficList": [
+        {
+          "callsign": "XR_001",
+          "destination": "LOND",
+          "origin": "XRODN",
+          "location": "15,15"
+        },
+        {
+          "callsign": "XR_002",
+          "destination": "LOND",
+          "origin": "XRODN",
+          "location": "15,15"
+        }
+      ],
+      "planeCreateList": [
+        {
+          "callsign": "YK_001",
+          "location": "20,20",
+          "originalAirport": "YK",
+          "destinationAirport": "LHR",
+          "speed" : 1.0
+        }
+      ],
+      "planeLandList": [
+        {
+          "callsign": "YK_001",
+          "location": "50,50",
+          "originalAirport": "YK",
+          "destinationAirport": "LHR",
+          "speed": 1.0
+        },
+        {
+          "callsign": "YK_001",
+          "location": "50,50",
+          "originalAirport": "YK",
+          "destinationAirport": "LHR",
+          "speed": 1.0
+        }
+      ],
+      "moveMentList": [
+        {
+          "callsign": "LHR_003",
+          "oldLocation": "20,20",
+          "newLocation": "30,30",
+          "originalAirport": "LHR",
+          "destinationAirport": "XD"
+        },
+        {
+          "callsign": "LHR_004",
+          "oldLocation": "20,20",
+          "newLocation": "30,30",
+          "originalAirport": "LHR",
+          "destinationAirport": "YK"
+        }
+      ],
+      "airportCreateList": [
+        {
+          "code": "LOND",
+          "name": "London",
+          "location": "70,70",
+          "takeOffProbability": 0,
+          "status":false,
+          "planeNumber": 1
+        },
+        {
+          "code": "SF",
+          "name": "Sheffiled",
+          "location": "25,49",
+          "takeOffProbability": 0,
+          "status":false,
+          "planeNumber": 1
+        }
+      ]
+    }
+]

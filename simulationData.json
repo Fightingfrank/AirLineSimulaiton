@@ -1,0 +1,66 @@
+{
+    "airports":[
+        {
+            "code": "LHR",
+            "name": "London Heathrow",
+            "location": "45,40",
+            "takeOffProbability": 0.2
+        },
+        {
+            "code": "MAN",
+            "name": "Manchester",
+            "location": "60,47",
+            "takeOffProbability": 0.2
+        },
+        {
+            "code": "TXL",
+            "name": "Berlin Tegel",
+            "location": "47,56",
+            "takeOffProbability": 0.005
+        },
+        {
+            "code": "UAK",
+            "name": "Narsarsuaq",
+            "location": "10,5",
+            "takeOffProbability": 0.02
+        },
+        {
+            "code": "DME",
+            "name": "Moscow Domodedovo",
+            "location": "75,35",
+            "takeOffProbability": 0.02
+        },
+        {
+            "code": "ESB",
+            "name": "Esenboga International",
+            "location": "50,15",
+            "takeOffProbability": 0.1
+        }
+    ],
+    "traffic":[
+        {
+            "callsign": "LHR_001",
+            "originalAirport": "LHR",
+            "destinationAirport": "TXL",
+            "location": "32,55"
+        },
+        {
+            "callsign": "LHR_002",
+            "originalAirport": "LHR",
+            "destinationAirport": "MAN",
+            "location": "31,52"
+        },
+        {
+            "callsign": "DME_005",
+            "originalAirport": "DME",
+            "destinationAirport": "ESB",
+            "location": "75,36"
+        },
+        {
+            "callsign": "UAK_004",
+            "originalAirport": "UAK",
+            "destinationAirport": "ESB",
+            "location": "10,15"
+        }
+    ]
+}
